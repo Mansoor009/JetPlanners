@@ -41,9 +41,9 @@
         width: 45%;
         transition: 350ms ease-in-out;
     }
-    .nav-items a{
-        margin-bottom: 10px;
-        font-size: 22px;
+    .nav-items a {
+        margin-bottom: 20px;
+        font-size: 25px;
         margin-left: 25px;
     }
     .out-nav {

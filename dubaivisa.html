@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,13 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="dubaivisa.css">
+    <link rel="stylesheet" href="dubaivisa.css">
     <title>Dubai Visa</title>
 </head>
+
 <body>
     <nav>
         <div class="side-nav-wrapper">
@@ -37,28 +39,53 @@
             </div>
         </div>
     </nav>
-    
+    <section class="visa-hero-wrapper">
+        <div class="container">
+            <div class="visa-hero-cover">
+                <div class="row align-items-center">
+                    <div class="visa-hero-header text-center">
+                        <h1>UAE VISA</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="visa-hero-content">
+                            <h2>UAE Visa Information</h2>
+                            <h5>"The Validity of the Visa is 2 months, the stay period is as per the duration of the
+                                Visa
+                                issued and it begins from the day you enter UAE. The visa is valid and accepted at all
+                                the airports in UAE."
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="visa-hero-img">
+                            <img src="img/visa-hero-img.jpg" alt="hero-img">        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script>
         let sideNav = document.querySelector(".nav-items")
-    let openBtn = document.querySelector(".fa-bars")
-    openBtn.addEventListener("click", (e) => {
-        sideNav.classList.add("out-nav")
-        document.body.style.backgroundColor = "rgba(0,0,0,0.7)";
-    })
-    let closeBtn = document.querySelector(".fa-xmark")
-    closeBtn.addEventListener("click",(e)=>{
-        sideNav.classList.remove("out-nav")
-        document.body.style.backgroundColor = "white";
-    })
-    var a = 0
-    function func(){
-        var a = 2;
-        a = 6        
-        function func2(){
-            var b = 9
+        let openBtn = document.querySelector(".fa-bars")
+        openBtn.addEventListener("click", (e) => {
+            sideNav.classList.add("out-nav")
+            document.body.style.backgroundColor = "rgba(0,0,0,0.7)";
+        })
+        let closeBtn = document.querySelector(".fa-xmark")
+        closeBtn.addEventListener("click", (e) => {
+            sideNav.classList.remove("out-nav")
+            document.body.style.backgroundColor = "white";
+        })
+        var a = 0
+        function func() {
+            var a = 2;
+            a = 6
+            function func2() {
+                var b = 9
+            }
+            return console.log(a)
         }
-        return console.log(a)
-    }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -67,4 +94,5 @@
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
